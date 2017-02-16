@@ -1,0 +1,40 @@
+#Abdulshaheed Alqunber
+#ASQ@BU.EDU
+
+1)
+
+line of code   | a  | b  | c  |
+--------------------------------
+a = 10         | 10 |    |    |
+b = 3          | 10 | 3  |    |   
+c = b + 5      | 10 | 3  | 8  |
+b = b ** 2     | 10 | 9  | 8  |
+a = a // 4     | 2  | 9  | 8  |
+b = b % 4      | 2  | 1  | 8  |
+
+
+
+2) 
+
+global variables (ones that belong to the global scope)
+  x  |  y  
+-----------
+  3  |  5     
+  3  |  5
+  9  |  5
+
+local variables (ones that belong to foo)
+  x  |  y  
+-----------
+ 3   | 5     
+ 4   | 9
+ 5   | 3
+ 6   | 9
+
+output (the lines printed by the program)
+------
+3 5
+foo 4 9
+3 5
+foo 6 9
+9 5

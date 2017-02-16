@@ -1,0 +1,11 @@
+#Abdulshaheed alqunber
+#asq@bu.edu
+1. What was the most interesting or important idea in this article for you – and why?
+I thought tiny computers that are injected in humans are made of same materials as those in smartphones. It is interest me so actually that computer is actually becoming
+an important part of our life. Curing disease has been the dream for many people but with an advanced technology such as the liquid computers, I do believe that cancer is soon to be one old story.
+
+2. Which homework problem that we’ve done so far would you describe as being closest to
+the kinds of problems solved by the DNA computers mentioned in the article? Why?
+I cannot find an exact function from the homework we did match the problem solved by the DNA computers.
+Each step in the algorithm is similar to one function we did in problem sets. for example, the second step in the DNA algorithm reminds me of the function that takes to lists of letters and weave them together.
+another example is in the last to steps in the algorithm its similar to the decipher function where its generates a list of all options and choose the perfect one.

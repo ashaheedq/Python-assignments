@@ -1,0 +1,56 @@
+#abdulshaheed alqunber
+# asq@bu.edu
+1. tracing list comprehension
+
+    w     |    lc
+--------------------
+   do     | [['o', 'do'],
+   you    | [['o', 'do'], ['u', 'you'],
+comprehend| [['o', 'do'], ['u', 'you'], ['d', 'comprehend'],
+   this   | [['o', 'do'], ['u', 'you'], ['d', 'comprehend'], ['s', 'this']]
+
+
+2.What value is assigned to the variable bestpair during the call to mystery1 in the program above?
+the list ['u', 'you']
+
+3.What value is returned by the call to mystery1 in the program above?
+'you'
+
+4.Briefly describe what the function mystery1 does in general. In other words, for an arbitrary list of words wordlist, what will mystery1 return?
+The function in general will take the last character of every single word in the given list and create lists inside a list that each list contain the last character and the word. later, it is going to look for the max list inside our big list which will in alphabetical order and will return the word.
+
+5. tracing recursive function
+
+mystery2('kisses')
+------------------------
+    s = 'kisses'
+    result_rest = mystery2('isses')
+    return 'sss'(because s[0] != s[-1])
+
+    mystery2('isses')
+    ---------------------
+        s = 'isses'
+        result_rest = mystery2('sses')
+        return 'sss' (because s[0] != s[-1])
+
+        mystery2('sses')
+        ---------------------
+            s = 'sses'
+            result_rest = mystery2('ses')
+            return 'sss' + 's' (because s[0] == s[-1])
+
+            mystery2('ses')
+            ---------------------
+            	s = 'ses'
+            	result_rest = mystery2('es')
+            	return 'ss' (because s[0] == s[-1])
+
+        	mystery2('es')
+        	---------------------
+            		s = 'es'
+            		result_rest = mystery2('s')
+            		return 's' (because len(s) <= 1)
+
+
+6. What is the final result of the call mystery2('kisses')?
+the final result is 'sss'.

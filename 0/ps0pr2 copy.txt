@@ -1,0 +1,40 @@
+#Abdulshaheed Alqunber
+#ASQ@BU.EDU
+
+#Right-hand Rule #NEWS
+
+#Facing North (right is east)
+
+# The following rule tells Picobot to go to north and keep at state 0 when there is an obstacle in east and no wall in north. 
+0 xE** -> N 0
+# The following rule tells Picobot to go to east and change to state 2 when there is no obstacle in east. 
+0 *x** -> E 2
+# The following rule tells Picobot to stop and change to state 3 when there is an obstacle in east and north. 
+0 NE** -> x 3
+
+#Facing South (right is west)
+
+# The following rule tells Picobot to go to west and change to state 3 when there is no obstacle in west. 
+1 **x* -> w 3
+# The following rule tells Picobot to go to south and keep at state 1 when there is no obstacle in south but there is a wall in west. 
+1 **wx -> s 1
+# The following rule tells Picobot to stop and change to state 2 when there is an obstacle in south and west. 
+1 **ws -> x 2
+
+#Facing East (right is south)
+
+# The following rule tells Picobot to go to south and change to state 1 when there is no obstacle in south. 
+2 ***x -> s 1
+# The following rule tells Picobot to go to east and keep at state 2 when there is no obstacle in east but there is a wall in south. 
+2 *x*s -> E 2
+# The following rule tells Picobot to stop and change to state 0 when there is a wall in east and south. 
+2 *E*S -> x 0 
+
+#Facing West (right is north)
+
+# The following rule tells Picobot to go to north and change to state 0 when there is no obstacle in north. 
+3 x*** -> N 0
+# The following rule tells Picobot to go to west and keep at state 3 when there is no obstacle in west but there is a wall in north. 
+3 N*x* -> w 3
+# The following rule tells Picobot to stop and change to state 1 when there is a wall in north and west. 
+3 N*W* -> x 1

@@ -1,0 +1,24 @@
+# Abdulshaheed Alqunber
+# ASQ@BU.EDU 
+
+
+Challenge problem set 0 part I Accepted!! 
+
+
+# The following rule tells Picobot to go to SOUTH when there is no obstacle. 
+0 ***x -> S 0
+
+# The following rule tells Picobot to stop at its place if there is a wall on its south and change to state 1 
+0 ***S -> X 1
+
+# The following rule tells Picobot to go to EAST when there is no obstacle. 
+1 *x** -> E 1
+
+# The following rule tells Picobot to stop at its place if there is a wall on its east and change to state 2 
+1 *E** -> X 2
+
+# The following rule tells Picobot to go to WEST when there is no obstacle. 
+2 **x* -> W 2
+
+# The following rule tells Picobot to go to north when there is no obstacle in WEST and change to state 1. 
+2 **W* -> N 1 

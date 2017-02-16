@@ -1,0 +1,6 @@
+### abdulshaheed alqunber
+### asq@bu.edu
+	1.	Which contributing factor within the bug’s origins (there are many!) strikes you as the “most preventable” and why? Of course, this will be in hindsight.
+The idea of storing a 64-bit number in a 16-bit space is supposed not to come in mind at first. For example, lets say you have for chairs and you want 8 people to sit on these 4 chairs at the same time, it is impossible and untaught thing. 
+	2.	The investigative report that uncovered the bug stated that software “does not fail in the same sense as a mechanical system.” Do you agree or disagree with this statement? Explain briefly. 
+I strongly disagree with the investigative report. Software systems, and programs codes are built up many years ago and new programs are based on them. In fact, softwares are the heart of many inventions, having a bug will make this origin not work perfectly, just like cancer. 

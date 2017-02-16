@@ -1,0 +1,7 @@
+#problem set 2 problem 0
+#name : abdulshaheed alqunber
+#email: asq@bu.edu
+
+What is an application that (in your opinion) Watson’s technology might be able to contribute to? Alternatively, do you feel Watson’s capabilities will not make much of an impact?
+
+A. One application that it would be great contribution to the humanity is to see Watson’s technology in the medical field. I think that one day computers will describe our medications and perform certain surgery like those really difficult operations that takes a lot of time or at least helping the doctor performing it.

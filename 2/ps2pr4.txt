@@ -1,0 +1,28 @@
+# abdulshaheed alqunber
+# asq@bu.edu
+
+
+global variables (ones that belong to the global scope)
+  x  |  y  
+-----------
+  3  |  5  
+  3  | 35
+  8  | 35
+
+local variables (ones that belong to the mystery1 function)
+  x  |  y  |  lc
+-----------------
+ 5   |  0  | [1,
+     |  1  | [1, 2
+     |  2  | [1, 2, 5
+     |  3  | [1, 2, 5, 10
+     |  4  | [1, 2, 5, 10, 17]
+ 3   |  0  | [1,
+     |  1  | [1, 2
+     |  2  | [1, 2, 5]
+
+output (the lines printed by the program)
+------
+3 5
+3 35
+8 35

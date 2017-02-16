@@ -1,0 +1,22 @@
+#Abdulshaheed Alqunber
+#ASQ@BU.EDU
+
+#Thinking recursively
+
+1) mystery(20, 6)
+
+returns 2 + mystery(14, 6)
+
+returns 2 + mystery(8, 6) 
+ 
+returns 2 + mystery(2, 6)
+
+returns 2 + mystery(-4, 6) 
+
+returns 1 
+
+2) mystery(20, 6) output: 9 
+
+3) 6 stack frames
+
+4) mystery(1000, 1), because there is a limit for python on how many recursion can compare. eventually you will get this error “maximum recursion depth exceeded in comparison.”
