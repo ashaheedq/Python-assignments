@@ -1,0 +1,28 @@
+#
+# ps6pr3.txt (Problem Set 6, Problem 3, Tasks 1 and 2)
+#
+# Pseudorandom number generator
+#
+# Your values for a and c when m == 100:
+#     a: 21
+#     c: 3
+#
+
+00   read r1           # input a
+01   read r2           # input c
+02   read r3           # input m
+03   read r4           # input x_0
+04   read r5           # input n
+05   copy r10 r5       # copy value of r5 and store it in r10 
+06   copy r8 r4        # copy value of r4 and store it in r8
+07   jeqz r10 16       # jump to line 16 if r10 equals to zero 
+08   mul r9 r8 r1      # multiply r8 x r1 and store it in r9
+09   add r9 r9 r2      # add r8 + r1 and store it in r9
+10   mod r8 r9 r3      # divide r9 / r3 and return the remainder and store it in r8
+11   write r8          # print r8
+12   addn r10 -1       # add -1 to r10 
+13   jumpn 07          # jump to address line 07
+14   nop
+15   nop
+16   nop
+17   halt

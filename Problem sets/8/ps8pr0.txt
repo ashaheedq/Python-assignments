@@ -1,0 +1,6 @@
+##Abdulshaheed Alqunber
+## ASQ@bu.edu
+
+Q.What are the advantages and disadvantages of pursuing a strategy of evolving programs to solve problems, rather than writing them for a specific task?
+
+One of the disadvantages of bio-inspired computing is that large scale systems cannot emerge from blind. Despite that, one study found that Wikipedia is almost as accurate as Encyclopedia Britannica. Bio-inspired algorithms can work well in even poorly designed tasks; they adapt to unpredicted changes in the environment. Another advantage is part of a growing stockpile of next-generation adaptive machines; that rely on bio-inspired algorithms to accommodate operations on the fly in order to compensate for the accidental injuries. A significant disadvantage is that evolutionary algorithm designers spend so much time on studying the problem and trying to come up with a formula for measuring the quality of any given solution. 

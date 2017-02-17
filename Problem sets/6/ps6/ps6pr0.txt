@@ -1,0 +1,12 @@
+#
+# ps6pr0.txt (Problem Set 6, Problem 0)
+#
+
+In her paper, Hopper lists two drawbacks of “using subroutines” (i.e., of abstracting sequences of instructions into reusable functions). Do you think those drawbacks still exist? How important are they today?
+
+	It is true back then these were drawbacks but as if today these disadvantages do not exist anymore. For instance, the second problem was that if a desired subroutine does not exist it has to be programmed and added to the library. Nowadays there are to many programming languages that are available for our needs.  
+
+
+Hopper also lists five advantages of using subroutines, but her list is not comprehensive. Explain at least one advantage of a high-level language that Hopper did not mention in her paper. This may be an idea of your own, or you might take one from those mentioned in the biographical sketch of Hopper, since she continued to expand her arguments for such languages as her career progressed!
+
+	One advantage that Hopper did not mention is that because of her idea of programming in English, this made it possible for anyone from kids to adults to start programming and create creative ideas. In fact, programming was limited to computer sciences back then due the fact that it involves binary numbers. Nowadays, the education curriculum has changed. Kids are learning how to code from elementary school. They are developing problem-solving skill from a young age.

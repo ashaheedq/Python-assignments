@@ -1,0 +1,12 @@
+#
+# lab6task2.txt (Lab 6, Task 2)
+#
+
+00   read r1          # get user's first # and store it in r1
+01   read r2          # get user's second # and store it in r2 
+02   sub r3 r2 r1     # r3 = r2 - r1 
+03   jgtz r3 07       # halt if r1 == r2
+04   write r1         # print the value of r1
+05   addn r1 1        # add 1 to r1
+06   jumpn 02         # jump to line 02
+07   halt             # end the program

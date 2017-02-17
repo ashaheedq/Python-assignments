@@ -1,0 +1,28 @@
+#
+# ps6pr1.txt (Problem Set 6, Problem 1)
+#
+# Cubic countdown
+#
+
+00 read r1
+01 read r2
+02 setn r15 100
+03 call r14 07
+04 write r13
+05 halt
+06 nop
+07 jnez r2 10
+08 setn r13 1
+09 jumpr r14
+10 addn r15 1
+11 storer r1 r15
+12 addn r15 1
+13 storer r14 r15
+14 addn r2 -1
+15 call r14 07
+16 loadr r14 r15
+17 addn r15 -1
+18 loadr r1 r15
+19 addn r15 -1
+20 mul r13 r13 r1
+21 jumpr r14             

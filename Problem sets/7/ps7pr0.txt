@@ -1,0 +1,5 @@
+#abdulshaheed alqunber
+#ps7pr0
+Based on the information in the articles, how can computer scientists and others who develop computational models ensure that their models are correct? Is it even possible to do so?
+
+When scientists in general want to develop models - which is of course based on math - they are also calculating the margin of error. The margin of error is a statistic expressing the amount of random sampling error in a survey's results. it is not possible to predict what will happen in the future precisely; however, scientists put a lot of effort to minimize the margin of error to its lowest to get nearly a perfect predication. Yet, there are other factors that may changed the prediction to a completely different outcome. I believe these factors are unpredictable. But, again, scientists uses current situations to make models %99 correct. 

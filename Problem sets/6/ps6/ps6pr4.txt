@@ -1,0 +1,29 @@
+#
+# ps6pr4.txt (Problem Set 6, Problem 4)
+#
+# The Fibonacci sequence
+#
+
+00   read r1           # input n
+01   call r14 4        # starting the call and jumping to line 4
+02   write r13         # write out the sum
+03   halt              #
+04   setn r2 1         # initialize r2 and assign 1 to it 
+05   setn r3 1         # initialize r3 and assign 1 to it 
+06   copy r5 r1        # initialize r5 and copy value of r1 to it
+07   addn r5 -2        # add -2 to r5
+08   write r2          # write out r2
+09   write r3          # write out r3
+10   add r13 r3 r2     # r13 = r3 + r2
+11   jeqz r5 22        # if r5 equal to 0 jump to 22
+12   add r2 r2 r3      # r2 = r2 + r3
+13   addn r5 -1        # add -1 to r5 
+14   write r2          # write out r2
+15   add r13 r13 r2    # r13 = r13 + r2
+16   jeqz r5 22        # if r5 equal to 0 jump to 22
+17   add r3 r3 r2      # r3 = r3 + r2
+18   addn r5 -1        # add -1 to r5         
+19   write r3          # write out r3
+20   add r13 r13 r3    # r13 = r13 + r2
+21   jumpn 11          # jump to line 11
+22   jumpr r14         # jump to register r14

@@ -1,0 +1,21 @@
+#Abdulshaheed Alqunber
+#asq@bu.edu
+
+Text Bodies: 
+
+The original texts are the script for of the first episode in the first three seasons for “South Park” and “Family guy”
+
+I had six sample texts that I compared to the original texts. The sample texts are scripts from the first episode in the first seasons of: “Rick and Morty”, “Futurama”, “The Simpsons”, and first episode from season four of “South Park” and “Family Guy”. 
+
+Comparisons: 
+
+First episode of season four of “South Park” was closer to “South Park” model text as expected. The same goes for the first episode of season four of “Family Guy”, it was closer to “Family Guy” model text. 
+
+“Rick and Morty” was closer to “Family Guy” model text, which was a shock for me as I expected it to be closer to “South Park” because I felt like they are somehow similar after watching both of them. 
+
+“Futurama” was closer to “Family Guy” model text. The result agrees with my expectations.
+
+Lastly, “The Simpsons” was closer to “Family Guy” model text. This anyone who watched both would expect it to be closer to Family Guy and thats what my function returned. 
+
+Reflections: 
+I think my text classification program works very well even though it did not meet my expectations for “Rick and Morty”, but that does not mean it failed. I believe if I improved by writing more concise and efficient stem function it would results more precise results. 
